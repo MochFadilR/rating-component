@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+root {
+    font-size: 10px;
+}
+
+body {
+    background-color: #141519;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 24vw;
+    height: 55vh;
+    margin: auto;
+    background-color: #1f2630;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
+.header {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.icon {
+    padding: 0.5rem;
+}
+
+.icon-container {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    /* padding: 1rem; */
+    border-radius: 2rem;
+    background-color: #262e37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin: 3rem auto 1rem;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #6f7680;
+    text-align: left;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rating {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #262e37;
+    padding: 1rem;
+    color: #6f7680;
+}
+
+.rating:active {
+    background-color: #fc7613;
+}
+
+.rating:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.submit-button {
+    background-color: #fc7613;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 2rem auto;
+    text-transform: uppercase;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #fc7613;
+    cursor: pointer;
+}
